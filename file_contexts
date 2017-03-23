@@ -122,6 +122,7 @@
 # System files
 #
 /system/bin/brcm-uim-sysfs                      u:object_r:brcm_uim_exec:s0
+/system/bin/fsck\.exfat                         u:object_r:fsck_exec:s0
 /system/bin/macaddrsetup                        u:object_r:addrsetup_exec:s0
 /system/bin/thermanager                         u:object_r:thermanager_exec:s0
 /system/bin/timekeep                            u:object_r:timekeep_exec:s0
