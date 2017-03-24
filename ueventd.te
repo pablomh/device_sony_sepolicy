@@ -22,5 +22,4 @@ allow ueventd tmpfs:dir create_dir_perms;
 
 allow ueventd device:file relabelfrom;
 allow ueventd urandom_device:file { relabelto setattr };
-allow ueventd vfat:file { open read };
-
+allow ueventd { exfat vfat }:file { open read };

@@ -80,3 +80,6 @@ type sysfs_pad_controller, sysfs_type, fs_type;
 # BRCM BT FM
 type brcm_ldisc_sysfs, sysfs_type, fs_type;
 type brcm_uim_exec, exec_type, file_type;
+
+# exFAT file system found on some SD cards (SDXC)
+type exfat, sdcard_type, fs_type, mlstrustedobject;
